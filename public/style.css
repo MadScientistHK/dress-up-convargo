@@ -1,0 +1,39 @@
+body {
+    background-color: lightblue;
+    
+}
+
+h1 {
+    font-family:monospace;
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+    text-decoration-line: underline;
+}
+
+.name {
+    border: 1px solid blue;
+}
+.price-by-km{
+    border: 1px solid blue;
+}
+.price-by-cubic{
+    border: 1px solid blue;
+}
+
+
+#compute {
+    position: relative;
+    
+}
+
+
+#trucker {
+	margin: 20px;
+    text-align: center;	
+    
+}
+#shipper {
+	 text-align: center;
+	
+}

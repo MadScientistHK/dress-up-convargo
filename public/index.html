@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
+	<link rel="stylesheet" href="style.css">
     <title>CSS/HTML Workshop with Convargo</title>
   </head>
   <body>
-    <div id="trucker">
-      <input class="name" type="text" placeholder="Trucker name"/>
-      <input class="price-by-km" type="number" placeholder="Price by km"/>
-      <input class="price-by-cubic" type="number" placeholder="Price by m3"/>
+      <h1>Convargo Calculator</h1>      
+  <form action="#res">
+    <div id="trucker" >
+		
+		  <input class="name" type="text" placeholder="Trucker name" required/>
+		  <input class="price-by-km" type="number" placeholder="Price by km" required/>
+		  <input class="price-by-cubic" type="number" placeholder="Price by m3" required/>
+        
+		 
     </div>
     <div id="shipper">
-      <input class="name" type="text" placeholder="Shipper name"/>
-      <input class="distance" type="number" placeholder="Distance in km"/>
-      <input class="volume" type="number" placeholder="Volume in m3"/>
+      <input class="name" type="text" placeholder="Shipper name" required/>
+      <input class="distance" type="number" placeholder="Distance in km" required/>
+      <input class="volume" type="number" placeholder="Volume in m3" required/>
       <input class="option" type="checkbox" placeholder="Deductible option"/>
     </div>
-    <button id="compute">Compute</button>
+    <button id="compute" class="w3-button w3-light-grey w3-section">Compute</button>
     <div id="actors"></div>
-    <script src="convargo.js"></script>
+	</form>
+	<script src="convargo.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
